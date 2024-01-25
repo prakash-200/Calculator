@@ -1,0 +1,57 @@
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading{
+    width: 100vw;
+}
+
+input[type = text]{
+    background-color: transparent;
+    color: #ffff;
+}
+
+.outline{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px #5d5858;
+}
+
+.top{
+    width: 95%;
+    height: 16%;
+    margin: 10px;
+    background: linear-gradient(#6A6A6A,#545454);
+    border-radius: 10px;
+}
+
+.bottom{
+    height: 100%;
+    width: 90%;
+    margin: 10px;
+}
+
+.btn{
+    width: 100%;
+    margin: 10px;
+    box-shadow: 2px 2px #888888;
+}
+
+.rights{
+    position: absolute;
+    bottom: 0;
+    color: #ffff;
+    width: 100vw;
+
+}
