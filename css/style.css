@@ -12,6 +12,7 @@ input[type = text]{
     background-color: transparent;
     color: #ffff;
     border: transparent;
+    outline: none;
 }
 
 .outline{
